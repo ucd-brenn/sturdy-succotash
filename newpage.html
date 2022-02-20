@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_39cef9f72f81495da4b5777208192a93 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+
+</head>
+<body>
+
+            <div class="folium-map" id="map_39cef9f72f81495da4b5777208192a93" ></div>
+
+</body>
+<script>
+
+            var map_39cef9f72f81495da4b5777208192a93 = L.map(
+                "map_39cef9f72f81495da4b5777208192a93",
+                {
+                    center: [40.419758200000004, -105.0297455626334],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+
+
+
+
+            var tile_layer_287f3ce910a5403782f934a3efcbefae = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var marker_fcb672cc6c6e4625a2c040c7df3b8842 = L.marker(
+                [40.6181781101695, -105.0019686299435],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_89f82e4f893248d49f6f666dfa79c0e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fcb672cc6c6e4625a2c040c7df3b8842.setIcon(icon_89f82e4f893248d49f6f666dfa79c0e1);
+
+
+        var popup_6ad3570fd9474bc29919eecad3b1e0c6 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_c726ded8769d4909961635e84117568f = $(`<div id="html_c726ded8769d4909961635e84117568f" style="width: 100.0%; height: 100.0%;"><strong>Anheuser-Busch Inc - Fort Collins</strong><br><br>Description:<br>Anheuser-Busch operates 12 breweries in the United States, 14 in China and one in the United Kingdom.</div>`)[0];
+            popup_6ad3570fd9474bc29919eecad3b1e0c6.setContent(html_c726ded8769d4909961635e84117568f);
+
+
+        marker_fcb672cc6c6e4625a2c040c7df3b8842.bindPopup(popup_6ad3570fd9474bc29919eecad3b1e0c6)
+        ;
+
+
+
+
+            var marker_f706e55441e44705b0fe495513867753 = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_404a39f295da466bad772d4cff73f3a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f706e55441e44705b0fe495513867753.setIcon(icon_404a39f295da466bad772d4cff73f3a6);
+
+
+        var popup_1fc9201fa686465cb18e2f2922458b86 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_8a1939c17b684f65a69e07f3209a1951 = $(`<div id="html_8a1939c17b684f65a69e07f3209a1951" style="width: 100.0%; height: 100.0%;"><strong>Black Bottle Brewery</strong><br><a href=http://www.blackbottlebrewery.com>Website</a></div>`)[0];
+            popup_1fc9201fa686465cb18e2f2922458b86.setContent(html_8a1939c17b684f65a69e07f3209a1951);
+
+
+        marker_f706e55441e44705b0fe495513867753.bindPopup(popup_1fc9201fa686465cb18e2f2922458b86)
+        ;
+
+
+
+
+            var marker_a0f0a5e3464347d3a063bfa6de4025bb = L.marker(
+                [40.5873784, -105.0755188],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_37219527fa8a4491a38699a1b3a3fe12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0f0a5e3464347d3a063bfa6de4025bb.setIcon(icon_37219527fa8a4491a38699a1b3a3fe12);
+
+
+        var popup_3c2ac893eaf640129a39a9201526ed71 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_2cf5648f745444849e0e6fbc65c9563e = $(`<div id="html_2cf5648f745444849e0e6fbc65c9563e" style="width: 100.0%; height: 100.0%;"><strong>CooperSmiths Pub and Brewing</strong><br><br>Description:<br>Tucked into the heart of Old Town Fort Collins, CooperSmith's offers a distinct alternative in eating & drinking establishments.<br><a href=http://www.coopersmithspub.com>Website</a></div>`)[0];
+            popup_3c2ac893eaf640129a39a9201526ed71.setContent(html_2cf5648f745444849e0e6fbc65c9563e);
+
+
+        marker_a0f0a5e3464347d3a063bfa6de4025bb.bindPopup(popup_3c2ac893eaf640129a39a9201526ed71)
+        ;
+
+
+
+
+            var marker_82e93e4e3dd642fbb2f34299af7629ef = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_98d5560839be4224a16677b345b70628 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_82e93e4e3dd642fbb2f34299af7629ef.setIcon(icon_98d5560839be4224a16677b345b70628);
+
+
+        var popup_53ca0e83a84c450f9d67f546650ef726 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_11877220c41b49888dcbb35855f0fc36 = $(`<div id="html_11877220c41b49888dcbb35855f0fc36" style="width: 100.0%; height: 100.0%;"><strong>D.C. Oakes Brewhouse and Eatery</strong><br><a href=http://www.dcoakesbrewhouse.com>Website</a></div>`)[0];
+            popup_53ca0e83a84c450f9d67f546650ef726.setContent(html_11877220c41b49888dcbb35855f0fc36);
+
+
+        marker_82e93e4e3dd642fbb2f34299af7629ef.bindPopup(popup_53ca0e83a84c450f9d67f546650ef726)
+        ;
+
+
+
+
+            var marker_0d8034f0993645b9b331f595c6a0cd79 = L.marker(
+                [40.5227133, -105.0212041023196],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_ef55a0b92fbf4ad89ad2b869dd4f7511 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d8034f0993645b9b331f595c6a0cd79.setIcon(icon_ef55a0b92fbf4ad89ad2b869dd4f7511);
+
+
+        var popup_2c8446dae04248f49fae7246588a3239 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_442f0a13237940a3b27f2b626f2b9224 = $(`<div id="html_442f0a13237940a3b27f2b626f2b9224" style="width: 100.0%; height: 100.0%;"><strong>Envy Brewing</strong><br><br>Description:<br>Envy Brewing was started by Dana Hood and Joe Morgan in March of 2019.<br><a href=http://www.envybrewing.com>Website</a></div>`)[0];
+            popup_2c8446dae04248f49fae7246588a3239.setContent(html_442f0a13237940a3b27f2b626f2b9224);
+
+
+        marker_0d8034f0993645b9b331f595c6a0cd79.bindPopup(popup_2c8446dae04248f49fae7246588a3239)
+        ;
+
+
+
+
+            var marker_b6af3407e6bf4534b73c49fcaf7ddf9e = L.marker(
+                [40.5863266, -105.0757134],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_70f0ef1535254a8d97da20577c961d2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b6af3407e6bf4534b73c49fcaf7ddf9e.setIcon(icon_70f0ef1535254a8d97da20577c961d2b);
+
+
+        var popup_f387221260d0492b9df0c897dcbd40a6 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_8bfa00c233174bb5addc88c5f7ae33b8 = $(`<div id="html_8bfa00c233174bb5addc88c5f7ae33b8" style="width: 100.0%; height: 100.0%;"><strong>Equinox Brewing</strong><br><a href=http://www.equinoxbrewing.com>Website</a></div>`)[0];
+            popup_f387221260d0492b9df0c897dcbd40a6.setContent(html_8bfa00c233174bb5addc88c5f7ae33b8);
+
+
+        marker_b6af3407e6bf4534b73c49fcaf7ddf9e.bindPopup(popup_f387221260d0492b9df0c897dcbd40a6)
+        ;
+
+
+
+
+            var marker_ec7a8423f6a2470d8b575c0f388bc3da = L.marker(
+                [40.5833653, -105.0422279],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_7741b38caf1c4d0ab48c3cb3c92f2fdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ec7a8423f6a2470d8b575c0f388bc3da.setIcon(icon_7741b38caf1c4d0ab48c3cb3c92f2fdc);
+
+
+        var popup_9e4f5ec49f7a4c4bb562b935928bde9b = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_26f5041831a84263a19a0e48c9c9f466 = $(`<div id="html_26f5041831a84263a19a0e48c9c9f466" style="width: 100.0%; height: 100.0%;"><strong>Funkwerks</strong><br><a href=http://www.funkwerks.com>Website</a></div>`)[0];
+            popup_9e4f5ec49f7a4c4bb562b935928bde9b.setContent(html_26f5041831a84263a19a0e48c9c9f466);
+
+
+        marker_ec7a8423f6a2470d8b575c0f388bc3da.bindPopup(popup_9e4f5ec49f7a4c4bb562b935928bde9b)
+        ;
+
+
+
+
+            var marker_c609850fb014405caf333febddeee66c = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_1b5a4a9322914eeeacca03b277df4082 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c609850fb014405caf333febddeee66c.setIcon(icon_1b5a4a9322914eeeacca03b277df4082);
+
+
+        var popup_04104f2b1595412f9616000e6eb60784 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_785749ec98834afb9600a9165e8ed329 = $(`<div id="html_785749ec98834afb9600a9165e8ed329" style="width: 100.0%; height: 100.0%;"><strong>Gilded Goat Brewing Company</strong><br><br>Description:<br>Family-owned, neighborhood craft brewery in the heart of Fort Collins making traditional styles ad barrel-aged beer used mixed-culture fermentation.<br><a href=http://www.gildedgoatbrewing.com>Website</a></div>`)[0];
+            popup_04104f2b1595412f9616000e6eb60784.setContent(html_785749ec98834afb9600a9165e8ed329);
+
+
+        marker_c609850fb014405caf333febddeee66c.bindPopup(popup_04104f2b1595412f9616000e6eb60784)
+        ;
+
+
+
+
+            var marker_f7234817dfe44c67be39f9862e191c4a = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_5baf31c4d81b411eb564561069498aeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f7234817dfe44c67be39f9862e191c4a.setIcon(icon_5baf31c4d81b411eb564561069498aeb);
+
+
+        var popup_b238984115c3440d965b15f6bef68b29 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_c09619b24c7c4a53b107b6784217b21d = $(`<div id="html_c09619b24c7c4a53b107b6784217b21d" style="width: 100.0%; height: 100.0%;"><strong>Horse & Dragon Brewing Company</strong><br><br>Description:<br>Work & family, hops & malt, Horse & Dragon.<br><a href=http://www.horseanddragonbrewing.com>Website</a></div>`)[0];
+            popup_b238984115c3440d965b15f6bef68b29.setContent(html_c09619b24c7c4a53b107b6784217b21d);
+
+
+        marker_f7234817dfe44c67be39f9862e191c4a.bindPopup(popup_b238984115c3440d965b15f6bef68b29)
+        ;
+
+
+
+
+            var marker_5ccc18b8c600473ab66dce65215bf9d6 = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_57019ec0fbb04bbdb0ff4f3e2cc3db3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ccc18b8c600473ab66dce65215bf9d6.setIcon(icon_57019ec0fbb04bbdb0ff4f3e2cc3db3f);
+
+
+        var popup_4b10d91789674f35b321228b6e0980f0 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_775ec80ceddc40c398e049594462d121 = $(`<div id="html_775ec80ceddc40c398e049594462d121" style="width: 100.0%; height: 100.0%;"><strong>Intersect Brewing</strong><br><br>Description:<br>We are proud to be a 100% independent, family-owned brewery.<br><a href=http://www.intersectbrewing.com>Website</a></div>`)[0];
+            popup_4b10d91789674f35b321228b6e0980f0.setContent(html_775ec80ceddc40c398e049594462d121);
+
+
+        marker_5ccc18b8c600473ab66dce65215bf9d6.bindPopup(popup_4b10d91789674f35b321228b6e0980f0)
+        ;
+
+
+
+
+            var marker_faeff452c15943af955522006e8bca90 = L.marker(
+                [40.56364404869134, -105.0382870229472],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_85e5445da3ec47e190c6690f739cca20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_faeff452c15943af955522006e8bca90.setIcon(icon_85e5445da3ec47e190c6690f739cca20);
+
+
+        var popup_f10440b9a19f47e59282ec7e6ac8255d = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_7f11e12b7f584f1fa77e65c0cef20525 = $(`<div id="html_7f11e12b7f584f1fa77e65c0cef20525" style="width: 100.0%; height: 100.0%;"><strong>Jessup Farm Barrel House</strong><br><br>Description:<br>Jessup Farm Barrel House is founded on having fun and letting our creativity explore the myriad of possibilities blending beer has to offer.<br><a href=http://www.jessupfarmbarrelhouse.com>Website</a></div>`)[0];
+            popup_f10440b9a19f47e59282ec7e6ac8255d.setContent(html_7f11e12b7f584f1fa77e65c0cef20525);
+
+
+        marker_faeff452c15943af955522006e8bca90.bindPopup(popup_f10440b9a19f47e59282ec7e6ac8255d)
+        ;
+
+
+
+
+            var marker_337e79b4214e40d192c69d346eadf49a = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_5e127226ea66410db6a7ea8e378d1c7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_337e79b4214e40d192c69d346eadf49a.setIcon(icon_5e127226ea66410db6a7ea8e378d1c7c);
+
+
+        var popup_ad438c61cda546e49f19df15ff0cdd42 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_1c0f06ef956043978881d539126f3683 = $(`<div id="html_1c0f06ef956043978881d539126f3683" style="width: 100.0%; height: 100.0%;"><strong>Maxline Brewing</strong><br><a href=http://www.maxlinebrewing.com>Website</a></div>`)[0];
+            popup_ad438c61cda546e49f19df15ff0cdd42.setContent(html_1c0f06ef956043978881d539126f3683);
+
+
+        marker_337e79b4214e40d192c69d346eadf49a.bindPopup(popup_ad438c61cda546e49f19df15ff0cdd42)
+        ;
+
+
+
+
+            var marker_7dc3c8fa03cb428da7650a71e85236dd = L.marker(
+                [40.5776141, -105.11505],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_810e96fd4e29471288825728ac5dcd89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7dc3c8fa03cb428da7650a71e85236dd.setIcon(icon_810e96fd4e29471288825728ac5dcd89);
+
+
+        var popup_2c11c944f3564e3d991c7c54adb68cb5 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_13f9ff82859c480f838e77ee414fd4d1 = $(`<div id="html_13f9ff82859c480f838e77ee414fd4d1" style="width: 100.0%; height: 100.0%;"><strong>McClellan's Brewing Company</strong><br><br>Description:<br>Located in Fort Collins, McClellan's Brewing Co.<br><a href=http://www.mcclellansbrewingcompany.com>Website</a></div>`)[0];
+            popup_2c11c944f3564e3d991c7c54adb68cb5.setContent(html_13f9ff82859c480f838e77ee414fd4d1);
+
+
+        marker_7dc3c8fa03cb428da7650a71e85236dd.bindPopup(popup_2c11c944f3564e3d991c7c54adb68cb5)
+        ;
+
+
+
+
+            var marker_ee33434a2d7547c28bc650b6ba7a21c3 = L.marker(
+                [40.59335824999999, -105.0678421818019],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_a17e8e1fee7c422f8ea4e2360ef9e85b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ee33434a2d7547c28bc650b6ba7a21c3.setIcon(icon_a17e8e1fee7c422f8ea4e2360ef9e85b);
+
+
+        var popup_0d2bb9b63e3f47daa422afbac500d990 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_c6dc9c596d5942068180811737c97c70 = $(`<div id="html_c6dc9c596d5942068180811737c97c70" style="width: 100.0%; height: 100.0%;"><strong>New Belgium Brewing Company</strong><br><a href=http://www.newbelgium.com>Website</a></div>`)[0];
+            popup_0d2bb9b63e3f47daa422afbac500d990.setContent(html_c6dc9c596d5942068180811737c97c70);
+
+
+        marker_ee33434a2d7547c28bc650b6ba7a21c3.bindPopup(popup_0d2bb9b63e3f47daa422afbac500d990)
+        ;
+
+
+
+
+            var marker_ad7a4cf1b82f4d00b9092ee2ad77a9eb = L.marker(
+                [40.5229025, -105.080218],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_876a6258bab34672b838c0eec86a143d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad7a4cf1b82f4d00b9092ee2ad77a9eb.setIcon(icon_876a6258bab34672b838c0eec86a143d);
+
+
+        var popup_9f10cfd8227b4ecb807341d26bf4dfc3 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_f02b40c733b341baabb8751c886bf66a = $(`<div id="html_f02b40c733b341baabb8751c886bf66a" style="width: 100.0%; height: 100.0%;"><strong>Obstacle Brewing and Grill</strong><br><a href=http://www.obstaclebrewing.com>Website</a></div>`)[0];
+            popup_9f10cfd8227b4ecb807341d26bf4dfc3.setContent(html_f02b40c733b341baabb8751c886bf66a);
+
+
+        marker_ad7a4cf1b82f4d00b9092ee2ad77a9eb.bindPopup(popup_9f10cfd8227b4ecb807341d26bf4dfc3)
+        ;
+
+
+
+
+            var marker_4a817ca661ba4bcda4c8b1ddde80aa29 = L.marker(
+                [40.5895239, -105.0633327178581],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_7a58ed9d4c8a4a0d9b1ad90d9afd30d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a817ca661ba4bcda4c8b1ddde80aa29.setIcon(icon_7a58ed9d4c8a4a0d9b1ad90d9afd30d9);
+
+
+        var popup_7d98e05191fc4dedb5f8734de6b7a271 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_0ae00c21d54e43db9f2493f7c39bab3d = $(`<div id="html_0ae00c21d54e43db9f2493f7c39bab3d" style="width: 100.0%; height: 100.0%;"><strong>Odell Brewing Co</strong><br><a href=http://www.odellbrewing.com>Website</a></div>`)[0];
+            popup_7d98e05191fc4dedb5f8734de6b7a271.setContent(html_0ae00c21d54e43db9f2493f7c39bab3d);
+
+
+        marker_4a817ca661ba4bcda4c8b1ddde80aa29.bindPopup(popup_7d98e05191fc4dedb5f8734de6b7a271)
+        ;
+
+
+
+
+            var marker_19a50753b0d749c38d9ded1640efccd6 = L.marker(
+                [40.55306785000001, -105.0973958996607],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_0c8e48fc8b584711afa7ac85823ccfca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19a50753b0d749c38d9ded1640efccd6.setIcon(icon_0c8e48fc8b584711afa7ac85823ccfca);
+
+
+        var popup_42ea81789b474357babbb896dd38449d = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_d71e9672042e4d61842e4998e43cfedc = $(`<div id="html_d71e9672042e4d61842e4998e43cfedc" style="width: 100.0%; height: 100.0%;"><strong>Pitchers Sports Restaurant and Brewery</strong><br><br>Description:<br>At Pitcher's Brewery we proudly serve handcrafted ales using the finest grains, hops, yeast and water to produce a quality product.<br><a href=http://www.pitchersbrewery.com>Website</a></div>`)[0];
+            popup_42ea81789b474357babbb896dd38449d.setContent(html_d71e9672042e4d61842e4998e43cfedc);
+
+
+        marker_19a50753b0d749c38d9ded1640efccd6.bindPopup(popup_42ea81789b474357babbb896dd38449d)
+        ;
+
+
+
+
+            var marker_31d29244293344b294ee7b312d37f589 = L.marker(
+                [40.5881588, -105.0743912],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_8cb5f2843f334f9692d014c722d70607 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_31d29244293344b294ee7b312d37f589.setIcon(icon_8cb5f2843f334f9692d014c722d70607);
+
+
+        var popup_1f98359b6e6347e4930fed2665b2f34a = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_d204c138fec141ecaa5071565d770fca = $(`<div id="html_d204c138fec141ecaa5071565d770fca" style="width: 100.0%; height: 100.0%;"><strong>Prost Brewing Fort Collins</strong><br><br>Description:<br>The Brewery was made by the Ziemann GmbH in 1963.</div>`)[0];
+            popup_1f98359b6e6347e4930fed2665b2f34a.setContent(html_d204c138fec141ecaa5071565d770fca);
+
+
+        marker_31d29244293344b294ee7b312d37f589.bindPopup(popup_1f98359b6e6347e4930fed2665b2f34a)
+        ;
+
+
+
+
+            var marker_f01430b73e1540988f6386988c774651 = L.marker(
+                [40.53107692617449, -105.0796214026846],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_cecdabb976c04befa49108cf4694d2b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f01430b73e1540988f6386988c774651.setIcon(icon_cecdabb976c04befa49108cf4694d2b0);
+
+
+        var popup_289d2750bc6b406b9b072abf57b0401a = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_f5340555bf474a2fa41476fcfa3dce49 = $(`<div id="html_f5340555bf474a2fa41476fcfa3dce49" style="width: 100.0%; height: 100.0%;"><strong>Purpose Brewing and Cellars</strong><br><a href=http://www.purposebrewing.com>Website</a></div>`)[0];
+            popup_289d2750bc6b406b9b072abf57b0401a.setContent(html_f5340555bf474a2fa41476fcfa3dce49);
+
+
+        marker_f01430b73e1540988f6386988c774651.bindPopup(popup_289d2750bc6b406b9b072abf57b0401a)
+        ;
+
+
+
+
+            var marker_30550bd81fbf481ba829887bad819f36 = L.marker(
+                [40.5659246, -105.0567889],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_8a6ee1699e92416db8a553ef5cceb5d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_30550bd81fbf481ba829887bad819f36.setIcon(icon_8a6ee1699e92416db8a553ef5cceb5d5);
+
+
+        var popup_a7685d6b35334db0b21fe77ec3607de7 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_e6c4678bd18844d0b9802a9c45607f96 = $(`<div id="html_e6c4678bd18844d0b9802a9c45607f96" style="width: 100.0%; height: 100.0%;"><strong>Rally King Brewing</strong><br><br>Description:<br>WHAT IS A RALLY KING EXACTLY?  Yes, our name has raised an eyebrow or two.<br><a href=http://www.rallykingbrewing.com>Website</a></div>`)[0];
+            popup_a7685d6b35334db0b21fe77ec3607de7.setContent(html_e6c4678bd18844d0b9802a9c45607f96);
+
+
+        marker_30550bd81fbf481ba829887bad819f36.bindPopup(popup_a7685d6b35334db0b21fe77ec3607de7)
+        ;
+
+
+
+
+            var marker_31d05d54abd44539ac20329df98b9427 = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_f538804563af439196a939ca2ca3c400 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_31d05d54abd44539ac20329df98b9427.setIcon(icon_f538804563af439196a939ca2ca3c400);
+
+
+        var popup_12e54cfcfb144375b8ec7ded540bc0c7 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_0330dcd81b794e3bb7e9719c8e9ee03b = $(`<div id="html_0330dcd81b794e3bb7e9719c8e9ee03b" style="width: 100.0%; height: 100.0%;"><strong>Ramskeller</strong><br><a href=http://www.fermentation.colostate.edu>Website</a></div>`)[0];
+            popup_12e54cfcfb144375b8ec7ded540bc0c7.setContent(html_0330dcd81b794e3bb7e9719c8e9ee03b);
+
+
+        marker_31d05d54abd44539ac20329df98b9427.bindPopup(popup_12e54cfcfb144375b8ec7ded540bc0c7)
+        ;
+
+
+
+
+            var marker_860c71fa6f114309bfbd64ad39679eed = L.marker(
+                [40.5892647, -105.0577416],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_a448ddbf72bb43d9b54a669c163a76cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_860c71fa6f114309bfbd64ad39679eed.setIcon(icon_a448ddbf72bb43d9b54a669c163a76cb);
+
+
+        var popup_fde1efd44f184d0688206697bf154668 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_c8961dc6746649059e2cd8db2cfc663d = $(`<div id="html_c8961dc6746649059e2cd8db2cfc663d" style="width: 100.0%; height: 100.0%;"><strong>Snowbank Brewing</strong><br><a href=http://www.snowbank.beer>Website</a></div>`)[0];
+            popup_fde1efd44f184d0688206697bf154668.setContent(html_c8961dc6746649059e2cd8db2cfc663d);
+
+
+        marker_860c71fa6f114309bfbd64ad39679eed.bindPopup(popup_fde1efd44f184d0688206697bf154668)
+        ;
+
+
+
+
+            var marker_af4cde848b3642f5a21c630f445b03e0 = L.marker(
+                [40.58927021258655, -105.1089647928297],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_b17d6d5133134df9a7b78d6d262f6581 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af4cde848b3642f5a21c630f445b03e0.setIcon(icon_b17d6d5133134df9a7b78d6d262f6581);
+
+
+        var popup_98ae7630a5c74b3e95e7d43673bb710a = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_6c2e7b0d2eca404c839b77401c8d3394 = $(`<div id="html_6c2e7b0d2eca404c839b77401c8d3394" style="width: 100.0%; height: 100.0%;"><strong>Stodgy Brewing Company</strong><br><a href=http://www.stodgybrewing.com>Website</a></div>`)[0];
+            popup_98ae7630a5c74b3e95e7d43673bb710a.setContent(html_6c2e7b0d2eca404c839b77401c8d3394);
+
+
+        marker_af4cde848b3642f5a21c630f445b03e0.bindPopup(popup_98ae7630a5c74b3e95e7d43673bb710a)
+        ;
+
+
+
+
+            var marker_55c84e2f69b4473e9acc877ec2722eaa = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_03f2c4600962420db903c64bdca6ead0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_55c84e2f69b4473e9acc877ec2722eaa.setIcon(icon_03f2c4600962420db903c64bdca6ead0);
+
+
+        var popup_94df72eb6b00460fae303da7424ef6d9 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_dd262cf447bc4f0484fa46a6dd13e025 = $(`<div id="html_dd262cf447bc4f0484fa46a6dd13e025" style="width: 100.0%; height: 100.0%;"><strong>Zwei Brewing Co</strong><br><br>Description:<br>Zwei Brewing Co.<br><a href=http://www.zweibruderbrewing.com>Website</a></div>`)[0];
+            popup_94df72eb6b00460fae303da7424ef6d9.setContent(html_dd262cf447bc4f0484fa46a6dd13e025);
+
+
+        marker_55c84e2f69b4473e9acc877ec2722eaa.bindPopup(popup_94df72eb6b00460fae303da7424ef6d9)
+        ;
+
+
+
+
+            var marker_9673b35d8af345228564b05f89a2e2b2 = L.marker(
+                [40.424994, -104.709115],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_87262416019b438ea9daf744556ab6e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9673b35d8af345228564b05f89a2e2b2.setIcon(icon_87262416019b438ea9daf744556ab6e3);
+
+
+        var popup_e9eee5a2b3c34b74b390008d8f2b6cd4 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_ac29f24ba4e848fc9ea1445c1d71e003 = $(`<div id="html_ac29f24ba4e848fc9ea1445c1d71e003" style="width: 100.0%; height: 100.0%;"><strong>Brix Brewery & Taphouse</strong><br><a href=http://www.brixtaphouseandbrewery.com>Website</a></div>`)[0];
+            popup_e9eee5a2b3c34b74b390008d8f2b6cd4.setContent(html_ac29f24ba4e848fc9ea1445c1d71e003);
+
+
+        marker_9673b35d8af345228564b05f89a2e2b2.bindPopup(popup_e9eee5a2b3c34b74b390008d8f2b6cd4)
+        ;
+
+
+
+
+            var marker_8a6d9538cfbd4009b8d6ba2928c6517b = L.marker(
+                [40.3897966, -104.7848052],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_93e346afa8644aae88766e6587fac3a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a6d9538cfbd4009b8d6ba2928c6517b.setIcon(icon_93e346afa8644aae88766e6587fac3a6);
+
+
+        var popup_acd2a41bc9d140f89ecba9db7fb5ca0c = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_9dabc7573d3f4b40a76e4ee61905ffe9 = $(`<div id="html_9dabc7573d3f4b40a76e4ee61905ffe9" style="width: 100.0%; height: 100.0%;"><strong>Crabtree Brewing</strong><br><a href=http://www.crabtreebrewing.com>Website</a></div>`)[0];
+            popup_acd2a41bc9d140f89ecba9db7fb5ca0c.setContent(html_9dabc7573d3f4b40a76e4ee61905ffe9);
+
+
+        marker_8a6d9538cfbd4009b8d6ba2928c6517b.bindPopup(popup_acd2a41bc9d140f89ecba9db7fb5ca0c)
+        ;
+
+
+
+
+            var marker_7999cefb666f4227b548126e2c2872f1 = L.marker(
+                [40.42261003079139, -104.6895554087007],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_afc34d3102364eacbdf8b12f078098d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7999cefb666f4227b548126e2c2872f1.setIcon(icon_afc34d3102364eacbdf8b12f078098d3);
+
+
+        var popup_c22c3137b62e4a1cb384cd8f68d5930a = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_291d78c1915e41c995783de4b2a947f6 = $(`<div id="html_291d78c1915e41c995783de4b2a947f6" style="width: 100.0%; height: 100.0%;"><strong>Green Earth Brewing Company</strong><br><a href=http://www.greenearthbrewingco.com>Website</a></div>`)[0];
+            popup_c22c3137b62e4a1cb384cd8f68d5930a.setContent(html_291d78c1915e41c995783de4b2a947f6);
+
+
+        marker_7999cefb666f4227b548126e2c2872f1.bindPopup(popup_c22c3137b62e4a1cb384cd8f68d5930a)
+        ;
+
+
+
+
+            var marker_d29711fc589f489daa6f388ef084a9ea = L.marker(
+                [40.42396671428572, -104.6912571428572],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_8a471c1caba244f89f6da2f1ab81986a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d29711fc589f489daa6f388ef084a9ea.setIcon(icon_8a471c1caba244f89f6da2f1ab81986a);
+
+
+        var popup_c8bf9bd930ad4c108ffa02f245cf9d08 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_d1faacdc55ce46d9a4bc1917886a9f94 = $(`<div id="html_d1faacdc55ce46d9a4bc1917886a9f94" style="width: 100.0%; height: 100.0%;"><strong>Lonesome Buck Brewing Co</strong><br><a href=http://www.lonesomebuck.com>Website</a></div>`)[0];
+            popup_c8bf9bd930ad4c108ffa02f245cf9d08.setContent(html_d1faacdc55ce46d9a4bc1917886a9f94);
+
+
+        marker_d29711fc589f489daa6f388ef084a9ea.bindPopup(popup_c8bf9bd930ad4c108ffa02f245cf9d08)
+        ;
+
+
+
+
+            var marker_c7140a9100114bdd9a09b6f8cc508d15 = L.marker(
+                [40.4214024, -104.7619938],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_a08fafb783b64eb884b5cce20dbd82ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c7140a9100114bdd9a09b6f8cc508d15.setIcon(icon_a08fafb783b64eb884b5cce20dbd82ac);
+
+
+        var popup_379b389fac6343358a2180aa0265545d = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_9261fc4ae61b48c589807eba73e332ea = $(`<div id="html_9261fc4ae61b48c589807eba73e332ea" style="width: 100.0%; height: 100.0%;"><strong>Rule105 Brewing</strong><br><a href=http://www.brokenplowbrewery.com>Website</a></div>`)[0];
+            popup_379b389fac6343358a2180aa0265545d.setContent(html_9261fc4ae61b48c589807eba73e332ea);
+
+
+        marker_c7140a9100114bdd9a09b6f8cc508d15.bindPopup(popup_379b389fac6343358a2180aa0265545d)
+        ;
+
+
+
+
+            var marker_f2303a92255048359cb585a6e666cb76 = L.marker(
+                [40.4004257, -104.691141],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_d740f4f2cb7d42bebb54c5f29d9be148 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f2303a92255048359cb585a6e666cb76.setIcon(icon_d740f4f2cb7d42bebb54c5f29d9be148);
+
+
+        var popup_35996783910742af854658f10978c7d9 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_2cc86d7d77c440828a1652a39c258e0c = $(`<div id="html_2cc86d7d77c440828a1652a39c258e0c" style="width: 100.0%; height: 100.0%;"><strong>WeldWerks Brewing Co.</strong><br><a href=http://www.weldwerksbrewing.com>Website</a></div>`)[0];
+            popup_35996783910742af854658f10978c7d9.setContent(html_2cc86d7d77c440828a1652a39c258e0c);
+
+
+        marker_f2303a92255048359cb585a6e666cb76.bindPopup(popup_35996783910742af854658f10978c7d9)
+        ;
+
+
+
+
+            var marker_7af1c1a83669499a9ed42eb8a344b208 = L.marker(
+                [40.4314048, -104.6885927],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_720d193e06df48ba98bb8d55cc40a591 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7af1c1a83669499a9ed42eb8a344b208.setIcon(icon_720d193e06df48ba98bb8d55cc40a591);
+
+
+        var popup_ea2c434b362b48de8ff8e0f53ff69fbc = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_05e0733ffe0b414b933dc234db26db85 = $(`<div id="html_05e0733ffe0b414b933dc234db26db85" style="width: 100.0%; height: 100.0%;"><strong>Wiley Roots Brewing Co</strong><br><br>Description:<br>Wiley Roots Brewing Company is a small, artisan craft brewery that opened in Greeley, Colorado in June of 2013.<br><a href=http://www.wileyrootsbrewing.com>Website</a></div>`)[0];
+            popup_ea2c434b362b48de8ff8e0f53ff69fbc.setContent(html_05e0733ffe0b414b933dc234db26db85);
+
+
+        marker_7af1c1a83669499a9ed42eb8a344b208.bindPopup(popup_ea2c434b362b48de8ff8e0f53ff69fbc)
+        ;
+
+
+
+
+            var marker_40d37d5f806e4f1893bf3a2473e987e6 = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_07143193df4845b89ce2ee632a7996d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_40d37d5f806e4f1893bf3a2473e987e6.setIcon(icon_07143193df4845b89ce2ee632a7996d3);
+
+
+        var popup_61c2cf95add04cde8dcdf97d6d1e0cdb = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_1cf91529aba44a248d27af14346bcc53 = $(`<div id="html_1cf91529aba44a248d27af14346bcc53" style="width: 100.0%; height: 100.0%;"><strong>Berthoud Brewing Co - 5030 Local</strong><br><br>Description:<br>Berthoud Brewing Co.</div>`)[0];
+            popup_61c2cf95add04cde8dcdf97d6d1e0cdb.setContent(html_1cf91529aba44a248d27af14346bcc53);
+
+
+        marker_40d37d5f806e4f1893bf3a2473e987e6.bindPopup(popup_61c2cf95add04cde8dcdf97d6d1e0cdb)
+        ;
+
+
+
+
+            var marker_8f72c3b0f74e4f74a766888121e4b6e4 = L.marker(
+                [40.41026626022416, -105.1310984350719],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_adc2f886d6104e7c9536e7ce0654c3f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8f72c3b0f74e4f74a766888121e4b6e4.setIcon(icon_adc2f886d6104e7c9536e7ce0654c3f7);
+
+
+        var popup_69d0d8becc4d4e20abd516fcada12844 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_e054f92ed05c44f7bdca6555eb964710 = $(`<div id="html_e054f92ed05c44f7bdca6555eb964710" style="width: 100.0%; height: 100.0%;"><strong>Berthoud Brewing Company</strong><br><br>Description:<br>Berthoud Brewing Co.<br><a href=http://www.berthoudbrewing.com>Website</a></div>`)[0];
+            popup_69d0d8becc4d4e20abd516fcada12844.setContent(html_e054f92ed05c44f7bdca6555eb964710);
+
+
+        marker_8f72c3b0f74e4f74a766888121e4b6e4.bindPopup(popup_69d0d8becc4d4e20abd516fcada12844)
+        ;
+
+
+
+
+            var marker_17fae4e16d85441d96220e3de0bf3fa9 = L.marker(
+                [40.407828, -105.1144841],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_ae590c5aeb874acbbe7d4f803d08a3d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_17fae4e16d85441d96220e3de0bf3fa9.setIcon(icon_ae590c5aeb874acbbe7d4f803d08a3d8);
+
+
+        var popup_491f1b98af0a4ac3935138ef782b0d1f = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_b81ebd03b25040b2ba5dad9cc6b6dca4 = $(`<div id="html_b81ebd03b25040b2ba5dad9cc6b6dca4" style="width: 100.0%; height: 100.0%;"><strong>Big Beaver Brewing Co</strong><br><a href=http://www.bigbeaverbrew.com>Website</a></div>`)[0];
+            popup_491f1b98af0a4ac3935138ef782b0d1f.setContent(html_b81ebd03b25040b2ba5dad9cc6b6dca4);
+
+
+        marker_17fae4e16d85441d96220e3de0bf3fa9.bindPopup(popup_491f1b98af0a4ac3935138ef782b0d1f)
+        ;
+
+
+
+
+            var marker_385a087ea4fa4e27b0a7d46444ec6ebc = L.marker(
+                [40.40811257142857, -105.074683],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_2badc9171e43407cb6117b6f4cb8f6b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_385a087ea4fa4e27b0a7d46444ec6ebc.setIcon(icon_2badc9171e43407cb6117b6f4cb8f6b9);
+
+
+        var popup_a33f0c49cf594dac8b423c7ba6deca5d = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_531ee1dd9ca147d986b58504a1832b0c = $(`<div id="html_531ee1dd9ca147d986b58504a1832b0c" style="width: 100.0%; height: 100.0%;"><strong>Big Thompson Brewery</strong><br><br>Description:<br>Established in Dec 2015, Big Thompson Brewery is located at 114 E.</div>`)[0];
+            popup_a33f0c49cf594dac8b423c7ba6deca5d.setContent(html_531ee1dd9ca147d986b58504a1832b0c);
+
+
+        marker_385a087ea4fa4e27b0a7d46444ec6ebc.bindPopup(popup_a33f0c49cf594dac8b423c7ba6deca5d)
+        ;
+
+
+
+
+            var marker_80f29abbb0fd4ab1b0dbb4d680e7194b = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_07ab665cb97b45d2b3c39e1f130bc1f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_80f29abbb0fd4ab1b0dbb4d680e7194b.setIcon(icon_07ab665cb97b45d2b3c39e1f130bc1f4);
+
+
+        var popup_d6698a4c20324c6497f4607ec74d1fa8 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_b2b41f6db1244163ad84a9fcda0297ea = $(`<div id="html_b2b41f6db1244163ad84a9fcda0297ea" style="width: 100.0%; height: 100.0%;"><strong>Crow Hop Brewing Co. Ltd.</strong><br><a href=http://www.crowhopbrewing.com>Website</a></div>`)[0];
+            popup_d6698a4c20324c6497f4607ec74d1fa8.setContent(html_b2b41f6db1244163ad84a9fcda0297ea);
+
+
+        marker_80f29abbb0fd4ab1b0dbb4d680e7194b.bindPopup(popup_d6698a4c20324c6497f4607ec74d1fa8)
+        ;
+
+
+
+
+            var marker_e724814b33794cbdb2a0a3015fb17039 = L.marker(
+                [40.4045531, -105.0641646],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_4b63dc0b9c3b493ea7ca3ea605166b2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e724814b33794cbdb2a0a3015fb17039.setIcon(icon_4b63dc0b9c3b493ea7ca3ea605166b2e);
+
+
+        var popup_139741bb65f345f59d8d87b552e1d147 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_fe79dac1f887408b88cd9bff1094d630 = $(`<div id="html_fe79dac1f887408b88cd9bff1094d630" style="width: 100.0%; height: 100.0%;"><strong>Dratz Brewing Company</strong><br><a href=http://www.dratzbrewing.com>Website</a></div>`)[0];
+            popup_139741bb65f345f59d8d87b552e1d147.setContent(html_fe79dac1f887408b88cd9bff1094d630);
+
+
+        marker_e724814b33794cbdb2a0a3015fb17039.bindPopup(popup_139741bb65f345f59d8d87b552e1d147)
+        ;
+
+
+
+
+            var marker_f41dc3b8d7f54dbdb8f147d24e0fb44e = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_15b7fd810e5d4c59a824f48abfef9e6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f41dc3b8d7f54dbdb8f147d24e0fb44e.setIcon(icon_15b7fd810e5d4c59a824f48abfef9e6c);
+
+
+        var popup_9f93a387a01c4180a4fd894d87c5bded = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_cd6cd6c3396c475dbcc5186b86532455 = $(`<div id="html_cd6cd6c3396c475dbcc5186b86532455" style="width: 100.0%; height: 100.0%;"><strong>Grimm Brothers Brewhouse, LLC</strong><br><a href=http://www.grimmbeer.com>Website</a></div>`)[0];
+            popup_9f93a387a01c4180a4fd894d87c5bded.setContent(html_cd6cd6c3396c475dbcc5186b86532455);
+
+
+        marker_f41dc3b8d7f54dbdb8f147d24e0fb44e.bindPopup(popup_9f93a387a01c4180a4fd894d87c5bded)
+        ;
+
+
+
+
+            var marker_11e19335b5294e13b874ea75550e5cf3 = L.marker(
+                [40.39541012244898, -105.0769672040816],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_338142de5c904763ae62c54b81b3b4f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_11e19335b5294e13b874ea75550e5cf3.setIcon(icon_338142de5c904763ae62c54b81b3b4f8);
+
+
+        var popup_034eac482c4742678e95d82726292a22 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_6a254d8f32064c97a0be2abdfb2f4050 = $(`<div id="html_6a254d8f32064c97a0be2abdfb2f4050" style="width: 100.0%; height: 100.0%;"><strong>Loveland Aleworks</strong><br><br>Description:<br>Loveland Aleworks is an independent, Award winning, family-owned brewery offering a selection of small batch handcrafted beers.<br><a href=http://www.lovelandaleworks.com>Website</a></div>`)[0];
+            popup_034eac482c4742678e95d82726292a22.setContent(html_6a254d8f32064c97a0be2abdfb2f4050);
+
+
+        marker_11e19335b5294e13b874ea75550e5cf3.bindPopup(popup_034eac482c4742678e95d82726292a22)
+        ;
+
+
+
+
+            var marker_150c82309fca4801b8f7c1305707c81d = L.marker(
+                [40.418114, -104.9903849784731],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_4a5c9632f18141f7b825debf69d9b8d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_150c82309fca4801b8f7c1305707c81d.setIcon(icon_4a5c9632f18141f7b825debf69d9b8d7);
+
+
+        var popup_ba6502677df84281a8705d593cea68bd = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_0738cc73bf284fec9e75d041ff396604 = $(`<div id="html_0738cc73bf284fec9e75d041ff396604" style="width: 100.0%; height: 100.0%;"><strong>Rock Bottom Brewery - Centerra Promenade</strong><br><br>Description:<br>Our brewers eat, drink and sleep beer.<br><a href=http://www.rockbottom.com>Website</a></div>`)[0];
+            popup_ba6502677df84281a8705d593cea68bd.setContent(html_0738cc73bf284fec9e75d041ff396604);
+
+
+        marker_150c82309fca4801b8f7c1305707c81d.bindPopup(popup_ba6502677df84281a8705d593cea68bd)
+        ;
+
+
+
+
+            var marker_f862ec0454ef4e89bc2ab4f8a6f4f3ac = L.marker(
+                [40.3972983, -105.0713269],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_4d532c5606bd4ab384f963bf3a8058a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f862ec0454ef4e89bc2ab4f8a6f4f3ac.setIcon(icon_4d532c5606bd4ab384f963bf3a8058a7);
+
+
+        var popup_ad2cd67667804c55bb54689297938058 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_4493a70e48664441bac0cd5f42c9f3ca = $(`<div id="html_4493a70e48664441bac0cd5f42c9f3ca" style="width: 100.0%; height: 100.0%;"><strong>Rock Coast Brewery</strong><br><a href=http://www.rockcoastbrewery.com>Website</a></div>`)[0];
+            popup_ad2cd67667804c55bb54689297938058.setContent(html_4493a70e48664441bac0cd5f42c9f3ca);
+
+
+        marker_f862ec0454ef4e89bc2ab4f8a6f4f3ac.bindPopup(popup_ad2cd67667804c55bb54689297938058)
+        ;
+
+
+
+
+            var marker_b19e9760c3ed4a2e8103b3354de296a4 = L.marker(
+                [40.3966489, -105.0751077],
+                {}
+            ).addTo(map_39cef9f72f81495da4b5777208192a93);
+
+
+            var icon_341a31992f814d168f96797854988d0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b19e9760c3ed4a2e8103b3354de296a4.setIcon(icon_341a31992f814d168f96797854988d0b);
+
+
+        var popup_cbb6b35e6eda4cd59eaa29bc77d41cd3 = L.popup({"maxWidth": 500, "minWidth": 250});
+
+
+            var html_e8db522abdc44934b189fe83c91f7777 = $(`<div id="html_e8db522abdc44934b189fe83c91f7777" style="width: 100.0%; height: 100.0%;"><strong>Verboten Brewing</strong><br><br>Description:<br>Verboten is an award-winning artisan craft brewery located in Loveland, Colorado.<br><a href=http://www.verbotenbrewing.com>Website</a></div>`)[0];
+            popup_cbb6b35e6eda4cd59eaa29bc77d41cd3.setContent(html_e8db522abdc44934b189fe83c91f7777);
+
+
+        marker_b19e9760c3ed4a2e8103b3354de296a4.bindPopup(popup_cbb6b35e6eda4cd59eaa29bc77d41cd3)
+        ;
+
+
+
+</script>
