@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tab Title</title> <!--Title of the tab-->
+		<!-- Between the two head tags is what goes in the header injection (minus the title tag above) -->
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" /> <!-- this goes into the header injection - style sheet classes for leaflet -->
+		<link rel="stylesheet" href="map.css"> <!-- Some documents will reference a css file (such as adding a legeend) and you import it here. For the most part you can copy and paste from the tutorials and modify any colors as needed -->
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script> <!-- this goes into the header injection - actual code for leaflet -->
+		<script type="text/javascript" src="bmr.js"></script> <!-- reference all js files in the same manner with src = file path, sub for web version when posted-->
+	</head>
+	<body>
+		<!-- between the two body tags is what you will put into the code block -->
+		<div id="map" style="position:absolute;top:0;right:0;bottom:0;left:0"></div> <!-- sets the position of the map on the page - might need to modify to get it to display like you want, or squarespace will sort it out itself-->
+		<script>
+			var startLoc = [33.76502, -84.38131] //center of the map
+
+			var map = L.map('map').setView(startLoc, 11); // this creates your map object called "map", use different names if multiple maps on a page. Number after startLoc is the zoom level of the map
+
+			var tile_url = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'; //this references the osm basemap - you can use other basemaps with different styles (i.e. stamen toner) as well, just sub the reference their tile url
+	    var layer = L.tileLayer(tile_url, {
+	        attribution: 'OpenStreetMap'
+	    });
+	    map.addLayer(layer); //the above section adds a layer reference credit for osm to the map
+
+			//add everything else here - all of the "add to" commands should reference your map name above
+			L.geoJSON(feat).addTo(map);
+		</script>
+	</body>
+</html>
