@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tab Title</title>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+		<link rel="stylesheet" href="map.css">
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+		<script type="text/javascript" src="points.js"></script>
+	</head>
+	<body>
+
+		<div id="map" style="position:absolute;top:0;right:0;bottom:0;left:0"></div>
+		<script>
+			var startLoc = [39.75328, -105.05430]
+
+			var map = L.map('map').setView(startLoc, 16);
+
+			var tile_url = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
+	    var layer = L.tileLayer(tile_url, {
+	        attribution: 'OpenStreetMap'
+	    });
+	    map.addLayer(layer);
+
+			function onEachFeature(feature, layer) {
+			    // does this feature have a property named popupContent?
+			    if (feature.properties && feature.properties.Clue) {
+			        layer.bindPopup(feature.properties.Clue);
+			    }
+			}
+
+			L.geoJSON(points, {
+				style: function(feature) {
+				        switch (feature.properties.Color) {
+				            case 'black': return {color: "#000000"};
+				            case 'red':   return {color: "#ff0000"};
+				            case 'orange':   return {color: "#ff9933"};
+				            case 'yellow':   return {color: "#ffdb4d"};
+				            case 'purple':   return {color: "#a64dff"};
+				            case 'pink':   return {color: "#ff0080"};
+				            case 'green':   return {color: "#006600"};
+				            case 'tye dye':   return {color: "#0000ff"};
+				        }
+				    },
+						onEachFeature: onEachFeature
+			}).addTo(map);
+		</script>
+	</body>
+</html>
