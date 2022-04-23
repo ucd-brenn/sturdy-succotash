@@ -1,17 +1,17 @@
-Team,Color,Clue,coord,
-1,black,Memorial Park,"39.75289, -105.05647",Memorial Park
-1,black,Citizens Park,"39.75005, -105.05559",Citizens Park
-2,red,,"39.75030, -105.05571",Citizens Park
-2,red,,"39.75289, -105.05647",
-3,orange,,"39.75289, -105.05647",
-3,orange,,"39.75289, -105.05647",
-4,yellow,,"39.75289, -105.05647",
-4,yellow,,"39.75289, -105.05647",
-5,purple,,"39.75289, -105.05647",
-5,purple,,"39.75289, -105.05647",
-6,pink,,"39.75289, -105.05647",
-6,pink,,"39.75289, -105.05647",
-7,green,,"39.75289, -105.05647",
-7,green,,"39.75289, -105.05647",
-8,tye dye,,"39.75289, -105.05647",
-8,tye dye,,"39.75289, -105.05647",
+Team,Color,Clue,coord,OtherNotes,
+1,black,"Hangover’s are temporary: But diamonds are forever.: If you give me one,: I’ll let you take me home.","39.75046, -105.05555",,Citizens
+1,black,,,,Gazeebo
+2,red,Claire,Claire,B n N,
+2,red,Claire,Claire,B n N,
+3,orange,"Lend me your imagination,: So I can take you to far off places.: Lend me your heart,: So I can make you fall in love with them.","39.75340, -105.05444",B n B,House
+3,orange,"I thought this one might be too risky, But then I thought, What the hell, Just send it.","39.74739, -105.05767",B n B,Post Office
+4,yellow,"Hangover’s are temporary,: But diamonds are forever.: Someone else is taking me home,: But I want you to take me first.","39.75029, -105.05610",,Citizens
+4,yellow,,"39.75330, -105.05448",,Pizza Place Needs Clue
+5,purple,"I’m gonna be honest with you,: It’s in a tree.: But don’t let my lack of effort,: Hit too close to home.","39.75057, -105.05589",,Citizens
+5,purple,"One person’s trash, Is a nother’s treasure.","39.75334, -105.05389",,House
+6,pink,Sometimes you’re having a romantic evening in a gazebo. Sometimes you’re sitting in the dark staring at people having a romantic evening in a gazebo.What are you going to do about it?,"39.75291, -105.05641",C n J,Memorial
+6,pink,,,C n J,Richard
+7,green,"What better thing to do, For a day on the lake, Than to take your boat out on the water? Just don’t fall in.","39.75247, -105.05175",,Sloans
+7,green,"The gnome guards the entrance, To all the treasure. But the real gift, Is hidden behind","39.75328, -105.05418",,House
+8,tye dye,"Just as the pioneers did,: So long ago,: It’s now your chance,: To go westward, ho!",,"39.75301, -105.05446",House
+8,tye dye,,,,Richards
